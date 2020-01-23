@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вячеслав Саввиди](https://up.htmlacademy.ru/htmlcss/27/user/1245003).
-* Наставник: `Неизвестно`.
+* Наставник: [Саяжан Онласын](https://htmlacademy.ru/profile/crepiks).
 
 ---
 
