@@ -15,7 +15,7 @@
         <li><a href="#">Фото и Видео</a></li>
         <li>
           <a href="index.html" class="logo">
-            <img src="img/logo.svg" width="140" height="72" alt="на главную">
+            <img src="img/logo.svg" width="140" height="72" alt="На главную, логотип Седоны">
           </a>
         </li>
         <li><a href="#">Карта штата</a></li>
@@ -25,6 +25,84 @@
   </header>
 
   <main>
+
+    <header>
+      <form action="" method="post">
+
+        <div>
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+
+            <label>
+              <input type="checkbox" name="pool" id="pool" checked>Бассейн
+            </label>
+
+            <label>
+              <input type="checkbox" name="parking" id="parking">Парковка
+            </label>
+
+            <label>
+              <input type="checkbox" name="wi-fi" id="wi-fi">WI-FI
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Тип жилья:</legend>
+
+            <label>
+              <input type="checkbox" name="hotel" id="hotel" checked>Гостиница
+            </label>
+            <label>
+              <input type="checkbox" name="motel" id="motel" checked>Мотель
+            </label>
+            <label>
+              <input type="checkbox" name="apartments" id="apartments" checked>Апартаменты
+            </label>
+          </fieldset>
+        </div>
+
+        <fieldset>
+          <legend>Стоимость в сутки(Р):</legend>
+
+          <div class="range-slider">
+            <label class="visuallyhidden" for="min">минимальная цена</label>
+            <label class="visuallyhidden" for="max">максимальная цена</label>
+            <input type="number" value="0" name="min" min="0" id="min">
+            <input type="number" value="4000" name="max" min="0" id="max">
+
+            <div class="range-slider-track">
+              <div class="range-slider-pin-min"></div>
+              <div class="range-slider-pin-max"></div>
+            </div>
+          </div>
+
+          <button type="submit">Показать</button>
+
+        </fieldset>
+
+      </form>
+
+      <fieldset>
+          <legend>Найдено:<span>3</span></legend>
+           <p>Сортировка:</p>
+
+          <div>
+            <button type="button">По цене</button>
+
+            <button type="button">По типу</button>
+
+            <button type="button">По рейтингу</button>
+          </div>
+
+          <div>
+            <label for="pre" class="visuallyhidden">Предыдущий фильтр</label>
+            <label for="next" class="visuallyhidden">Следующий фильтр</label>
+
+            <button type="button" id="pre">&#9650;</button>
+            <button type="button" id="next">&#9660;</button>
+          </div>
+        </fieldset>
+    </header>
 
     <article>
 
@@ -44,7 +122,7 @@
 
       <div>
 
-        <span>&#9733; &#9733; &#9733; &#9733;</span>
+        <span aria-label="звёздный рейтинг: 4 звезды">&#9733; &#9733; &#9733; &#9733;</span>
 
         <span>Рейтинг: 8,5</span>
 
@@ -70,7 +148,7 @@
 
       <div>
 
-        <span>&#9733; &#9733; &#9733;</span>
+        <span aria-label="звёздный рейтинг: 3 звезды">&#9733; &#9733; &#9733;</span>
 
         <span>Рейтинг: 8,9</span>
 
@@ -96,7 +174,7 @@
 
       <div>
 
-        <span>&#9733; &#9733;</span>
+        <span aria-label="звёздный рейтинг: две звезды">&#9733; &#9733;</span>
 
         <span>Рейтинг: 9,2</span>
 
