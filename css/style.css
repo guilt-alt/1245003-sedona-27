@@ -145,10 +145,15 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .main-intro li h2 {
   margin-bottom: calc(38px - 14px);
+}
+
+.main-intro li p {
+  max-width: 600px;
 }
 
 .features {
@@ -172,6 +177,10 @@ a {
   align-items: center;
 }
 
+.features_blue-card div p {
+  width: 400px;
+}
+
 .features ul {
   padding: 0;
   margin: 0;
@@ -189,6 +198,15 @@ a {
 
 .features-icons {
   min-height: 330px;
+  width: 400px;
+}
+
+.features ul li h2 {
+  
+}
+
+.features ul li p {
+  width: 400px;
 }
 
 .icon_house::before {
@@ -236,9 +254,10 @@ a {
 
 .form-section p {
   margin-bottom: 52px;
+  width: 600px;
 }
 
-.form-active {
+.modal-active {
   width: 568px;
   height: 86px;
   border: none;
@@ -246,7 +265,7 @@ a {
   font-size: 21px;
 }
 
-.main-form {
+.modal {
   position: absolute;
   top: 100%;
   left: 316px;
