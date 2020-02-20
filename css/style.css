@@ -64,6 +64,7 @@ a {
   background-image: url("/img/background-photo.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  background-color: #ababab;
 }
 
 .intro-mask::before {
