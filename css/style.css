@@ -1110,13 +1110,13 @@ input[type="checkbox"] {
   border-radius: 4px;
 }
 
-@media (min-width: 1060px) {
+@media (max-width: 1060px) {
   .intro-mask::before {
     height: 51px;
   }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .intro-mask::before {
     height: 47px;
   }
